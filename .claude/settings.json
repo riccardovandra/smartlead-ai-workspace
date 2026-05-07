@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(smartlead *)",
+      "Bash(npm install -g @smartlead/cli)",
+      "Bash(npx @smartlead/cli *)"
+    ]
+  }
+}
