@@ -1,0 +1,195 @@
+# Normal Departments
+
+Chief Executive
+Finance Executive
+Founder
+Human Resources Executive
+Information Technology Executive
+Legal Executive
+Marketing Executive
+Medical & Health Executive
+Operations Executive
+Sales Leader
+Product Development
+Product Management
+All Product
+Engineering & Technical
+Artificial Intelligence / Machine Learning
+Bioengineering
+Biometrics
+Business Intelligence
+Chemical Engineering
+Data Science & Analysis
+DevOps
+Digital Transformation
+Emerging Technology / Innovation
+Industrial Engineering
+Mechanic
+Mobile Development
+Project Management
+Research & Development
+Scrum Master / Agile Coach
+Software Development
+Technician
+Technology Operations
+Test / Quality Assurance
+All Design
+Graphic / Visual / Brand Design
+Teacher
+Superintendent
+Professor
+Coach / Trainer
+Financial Reporting
+Financial Systems
+Accounting
+Finance & Banking
+Financial Planning, Strategy & Analysis
+Internal Audit & Control
+Investor Relations
+Mergers & Acquisitions
+Real Estate Finance
+Financial Risk
+Sourcing / Procurement
+Tax
+Treasury
+Compensation & Benefits
+Culture, Diversity & Inclusion
+Health & Safety
+All Human Resources
+HR Business Partner
+Learning & Development
+Organizational Development
+Recruiting & Talent Acquisition
+Talent Management
+Workforce Management
+People Operations
+Cloud Engineering
+Data Center
+Data Warehouse
+Database Administration
+eCommerce Development
+Help Desk / Desktop Services
+Information Security
+IT Asset Management
+IT Audit / IT Compliance
+IT Recruitement
+IT Procurement
+IT Strategy
+IT Training
+Networking
+Technical Lead
+Quality Assurance
+Retail / Store Systems
+Servers
+Disaster Recovery
+Telecommunications
+Compliance
+Contracts
+Corporate Secretary
+eDiscovery
+Ethics
+Governance
+Governmental Affairs & Regulatory Law
+Intellectual Property & Patent
+Labor & Employment
+Lawyer / Attorney
+All Legal
+Legal Counsel
+Legal Operations
+Litigation
+Privacy
+Advertising
+Brand Management
+Content Marketing
+Customer Experience
+Customer Marketing
+Growth & Demand Generation
+Digital Marketing
+eCommerce Marketing
+Event & Field Marketing
+Lead Generation
+Marketing Operations
+Product Marketing
+Public Relations
+SEO
+Social Media Marketing
+Technical Marketing
+Anesthesiology
+Chiropractics
+Clinical Systems
+Dentistry
+Dermatology
+Doctors / Physicians
+Epidemiology
+Fire Responder
+Infectious Disease
+Medical Administration
+Medical Education & Training
+Clinical Research
+Neurology
+Nursing
+Nutrition & Dietetics
+Obstetrics / Gynecology
+Oncology
+Opthalmology
+Optometry
+Orthopedics
+Radiology
+Public Health
+Psychology
+Psychiatry
+Physical Therapy
+Pharmacy
+Pediatrics
+Pathology
+Consultant
+All Sales
+Sales Training
+Sales Operations
+Sales Engineering
+Sales Enablement
+Revenue Operations
+Partnerships
+Sales Development
+Account Executive
+Field / Outside Sales
+Customer Success
+Customer Retention & Development
+Channel Sales
+Account Management
+Supply Chain
+Store Operations
+Safety
+Real Estate
+Quality Management
+Physical Security
+Office Operations
+Logistics
+Leasing
+Facilities Management
+Customer Service / Support
+Corporate Strategy
+Construction
+Call Center
+
+# Headcount Growth Departments
+
+Medical
+Sales
+HR
+Legal
+Marketing
+Finance
+Technical
+Consulting
+Operations
+Product
+General management
+Administrative
+Customer service
+Project management
+Design / UI / UX
+Research
+Trades
+Real estate
+Education

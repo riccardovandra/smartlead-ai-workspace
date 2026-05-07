@@ -111,7 +111,7 @@ smartlead mailboxes add-to-campaign \
 
 ### Step 4 — Convert leads.csv → leads.json and upload
 
-The CLI's `leads add` takes JSON. Convert with `jq` or a one-liner. Expected shape per lead:
+The CLI's `leads add` takes JSON. **The top-level shape is `{"lead_list": [...]}` — a bare array is rejected with `400 "value" must be of type object`.** Each lead in the array follows this shape:
 
 ```json
 {
@@ -125,11 +125,11 @@ The CLI's `leads add` takes JSON. Convert with `jq` or a one-liner. Expected sha
 }
 ```
 
-One-liner using `jq` (assumes CSV has an `email,first_name,last_name,company_name` header at minimum):
+Convert `leads.csv` and wrap under `lead_list`:
 
 ```bash
 python3 -c "
-import csv, json, sys
+import csv, json
 rows = list(csv.DictReader(open('leads.csv')))
 out = []
 for r in rows:
@@ -139,7 +139,7 @@ for r in rows:
     lead = {k:r[k] for k in standard if r.get(k)}
     if custom: lead['custom_fields'] = custom
     out.append(lead)
-json.dump(out, open('leads.json','w'), indent=2)
+json.dump({'lead_list': out}, open('leads.json','w'), indent=2)
 print(f'wrote {len(out)} leads')
 "
 

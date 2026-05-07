@@ -72,8 +72,9 @@ Hand off to the `find-leads` skill, passing:
 
 - the campaign folder path
 - the ICP block from `campaign-strategy.md` (job titles, company size, industry, location)
+- a **provider** — `smartlead` (Smart Prospects) or `prospeo`. Default to `smartlead`. Prefer `prospeo` when the strategy doc calls for filters Smart Prospects doesn't expose (funding stage, technology stack, hiring velocity, NAICS/SIC, headcount-growth-by-department) or when the user explicitly asks. The find-leads skill has the full decision rule in its Step 1.
 
-The skill queries Smartlead Smart Prospects via `smartlead prospect search`, writes the CSV directly into the campaign folder.
+The skill queries the chosen provider and writes a CSV directly into the campaign folder. The output schema is identical across providers — `email`, `first_name`, `last_name`, `company_name` are guaranteed; extra columns may appear depending on provider.
 
 Verify before moving on:
 
