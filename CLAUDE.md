@@ -4,10 +4,11 @@ A minimal, reproducible Claude Code workspace that runs cold-email outbound end-
 
 ## Mental model
 
-Three skills, four phases, one folder per campaign.
+Four skills, four phases, one folder per campaign.
 
 | Skill | Role |
 | --- | --- |
+| `install-smartlead` | One-time setup. Installs the CLI and walks the user through saving their API key. |
 | `outbound-system` | Orchestrator. Walks the 4 phases, points at the other skills, owns the campaign folder convention. |
 | `find-leads` | Queries Smartlead Smart Prospects via the CLI, writes `leads.csv` into the campaign folder. |
 | `create-campaign` | Creates the Smartlead campaign, saves the sequence, uploads leads, starts sending. |
@@ -30,8 +31,9 @@ One client = one folder under `workspace/clients/`. One campaign = one folder un
 ## Prerequisites
 
 - Node 18+ (for the Smartlead CLI)
-- `npm install -g @smartlead/cli`
-- `export SMARTLEAD_API_KEY=sl-...` (or `smartlead config set api_key sl-...`)
+- Smartlead CLI installed and an API key configured
+
+**First-time setup:** in Claude Code, say **"install smartlead"** — the `install-smartlead` skill installs the CLI, creates `.env` from `.env.example`, and walks you through pasting in your API key.
 
 Verify: `smartlead campaigns list` should return your existing campaigns or an empty list.
 
